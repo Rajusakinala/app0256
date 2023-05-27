@@ -16,7 +16,7 @@ const SearchPage = () => {
         <input
           placeholder="Location"
           style={{
-            border: "2px solid white",
+            border: "none",
             borderRadius: "15px",
             padding: "7px",
             marginRight: "5px",
@@ -25,7 +25,7 @@ const SearchPage = () => {
         <input
           placeholder="Apartment / Villa"
           style={{
-            border: "2px solid white",
+            border: "none",
             borderRadius: "15px",
             padding: "7px",
             marginRight: "5px",
@@ -34,7 +34,7 @@ const SearchPage = () => {
         <input
           placeholder="Budget"
           style={{
-            border: "2px solid white",
+            border: "none",
             borderRadius: "15px",
             padding: "7px",
             marginRight: "5px",
@@ -45,8 +45,9 @@ const SearchPage = () => {
           style={{
             color: "Black",
             fontWeight: "600",
-            border: "2px solid white",
-            backgroundColor: "#7ED7fF",
+            border: "none",
+            // backgroundColor: "#7ED7fF",
+            background: "linear-gradient(to Right, #76d9a8, #85d6f0)",
             // backgroundColor: `linear-gradient(to right, #FF5733, #1951E5);`,
             borderRadius: "15px",
             padding: "10px 20px",
